@@ -4,35 +4,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Renaldi Website</title>
+  <title>Renaldi Portfolio</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
 </head>
 <body>
 
-  <div class="card">
+  <!-- NAVBAR -->
+  <nav>
 
-    <img 
-      src="https://i.imgur.com/2DhmtJ4.png"
-      class="profile"
-    >
+    <h2 class="logo">Renaldi Ganteng</h2>
 
-    <h1>Renaldi Khairul</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
 
-    <p class="job">
-      Excel 
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div class="background"></div>
+
+    <div class="card">
+
+      <img
+        src="https://i.imgur.com/2DhmtJ4.png"
+        class="profile"
+      >
+
+      <h1>Renaldi Ganteng</h1>
+
+      <p class="job">
+        <span id="typing"></span>
+      </p>
+
+      <p class="desc">
+        Totorial jadi ganteng 
+      </p>
+
+      <div class="socials">
+
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+      </div>
+
+      <button onclick="welcome()">
+        Explore More
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <h1>About Me</h1>
+
+    <p>
+      Aku ganteng sekali 
     </p>
 
-    <p class="desc">
-      Building a website project
-    </p>
+  </section>
+<!-- PROJECT -->
 
-    <button onclick="welcome()">
-      Contact Me
-    </button>
+<section class="projects">
+
+  <h1>My Projects</h1>
+
+  <div class="project-container">
+
+    <div class="project-card">
+
+      <h2>Test Project 1</h2>
+
+      <p>
+        Pia jelekkk 
+      </p>
+
+    </div>
+
+    <div class="project-card">
+
+      <h2>Test Project 2</h2>
+
+      <p>
+        Pia cantik tapi boong
+      </p>
+
+    </div>
+
+    <div class="project-card">
+
+      <h2>Test Project 3</h2>
+
+      <p>
+        tapi emang cantik sihh cuma boong aja
+      </p>
+
+    </div>
 
   </div>
 
+</section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <h1>Contact</h1>
+
+    <p>Email: renaldi@gmail.com</p>
+
+  </section>
+
   <script src="script.js"></script>
+
 </body>
 </html>
